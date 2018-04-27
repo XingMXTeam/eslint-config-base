@@ -5,7 +5,7 @@
 安装：
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-config-alloy
+npm install --save-dev eslint babel-eslint eslint-config-base-mxx
 ```
 
 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
@@ -13,7 +13,7 @@ npm install --save-dev eslint babel-eslint eslint-config-alloy
 ```js
 module.exports = {
     extends: [
-        'eslint-config-alloy',
+        'eslint-config-base-mxx',
     ],
     globals: {
         // 这里填入你的项目需要的全局变量
@@ -43,7 +43,7 @@ module.exports = {
 安装：
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-alloy
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-base-mxx
 ```
 
 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
@@ -51,7 +51,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-all
 ```js
 module.exports = {
     extends: [
-        'eslint-config-alloy/react',
+        'eslint-config-base-mxx/react',
     ],
     globals: {
         // 这里填入你的项目需要的全局变量
@@ -91,7 +91,7 @@ module.exports = {
 安装：
 
 ```bash
-npm install --save-dev eslint babel-eslint vue-eslint-parser@2.0.1-beta.2 eslint-plugin-vue@3 eslint-config-alloy
+npm install --save-dev eslint babel-eslint vue-eslint-parser@2.0.1-beta.2 eslint-plugin-vue@3 eslint-config-base-mxx
 ```
 
 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
@@ -99,7 +99,7 @@ npm install --save-dev eslint babel-eslint vue-eslint-parser@2.0.1-beta.2 eslint
 ```js
 module.exports = {
     extends: [
-        'eslint-config-alloy/vue',
+        'eslint-config-base-mxx/vue',
     ],
     globals: {
         // 这里填入你的项目需要的全局变量

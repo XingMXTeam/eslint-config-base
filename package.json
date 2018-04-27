@@ -7,6 +7,9 @@
     "eslint",
     "eslintconfig"
   ],
+  "scripts": {
+    "start": "eslint test-react.js"
+  },
   "peerDependencies": {
     "eslint": ">= 3"
   },

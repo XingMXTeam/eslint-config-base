@@ -821,7 +821,7 @@ module.exports = {
             'error',
             {
                 anonymous: 'ignore',
-                named: 'never',
+                named: 'always',
                 asyncArrow: 'always'
             }
         ],

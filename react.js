@@ -16,6 +16,8 @@ module.exports = {
         'react'
     ],
     rules: {
+        // 不需要提示分号
+        'semi': 'off',
         // 布尔值类型的 propTypes 的 name 必须为 is 或 has 开头
         // @off 不强制要求写 propTypes
         'react/boolean-prop-naming': 'off',
@@ -135,19 +137,19 @@ module.exports = {
         // @off 已经在 jsx-indent 中限制了
         'react/jsx-closing-tag-location': 'off',
         // @fixable 大括号内前后禁止有空格
-        // 'react/jsx-curly-spacing': [
-        //     'error',
-        //     {
-        //         when: 'never',
-        //         attributes: {
-        //             allowMultiline: true
-        //         },
-        //         children: true,
-        //         spacing: {
-        //             objectLiterals: 'never'
-        //         }
-        //     }
-        // ],
+        'react/jsx-curly-spacing': [
+            'error',
+            {
+                when: 'never',
+                attributes: {
+                    allowMultiline: true
+                },
+                children: true,
+                spacing: {
+                    objectLiterals: 'never'
+                }
+            }
+        ],
         // @fixable props 与 value 之间的等号前后禁止有空格
         'react/jsx-equals-spacing': [
             'error',

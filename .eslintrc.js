@@ -10,6 +10,6 @@
 
 module.exports = {
     extends: [
-        './vue.js'
+        './index.js'
     ]
 }

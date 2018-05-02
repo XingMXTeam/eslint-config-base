@@ -13,6 +13,10 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XingMXTeam/eslint-config-base.git"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",

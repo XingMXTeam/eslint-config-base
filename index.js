@@ -19,6 +19,7 @@ module.exports = {
             modules: true
         }
     },
+    plugins: ['compat'],
     env: {
         browser: true,
         node: true,
@@ -28,6 +29,8 @@ module.exports = {
     // 以当前目录为根目录，不再向上查找 .eslintrc.js
     root: true,
     rules: {
+        // 检测不兼容的方法
+        'compat/compat': 'error',
         //
         //
         // 可能的错误
@@ -982,5 +985,19 @@ module.exports = {
             'error',
             'after'
         ]
+    },
+    globals: {
+        'jQuery': true,
+        '$': true,
+        'NEJ': true,
+        'define': true,
+        'window': true,
+        'Regular': true,
+        'console': true,
+        'chai': true,
+        'describe': true,
+        'it': true,
+        'document': true,
+        'location': true
     }
-}
+};

@@ -1,6 +1,4 @@
 /**
- * AlloyTeam ESLint 规则
- *
  * 包含所有 ESLint 规则
  * 使用 babel-eslint 作为解析器
  *

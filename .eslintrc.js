@@ -1,6 +1,4 @@
 /**
- * AlloyTeam ESLint 规则 - React
- *
  * 包含所有 ESLint 规则，以及所有 eslint-plugin-react 规则
  * 使用 babel-eslint 作为解析器
  *

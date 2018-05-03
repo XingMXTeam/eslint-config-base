@@ -1,9 +1,4 @@
-/*jshint -W097 */
-'use strict';
-
 /**
- * AlloyTeam ESLint 规则 - Vue
- *
  * 包含所有 ESLint 规则，以及所有 eslint-plugin-vue 规则
  * 使用 vue-eslint-parser 作为解析器
  *

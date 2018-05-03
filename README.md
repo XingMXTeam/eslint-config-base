@@ -4,7 +4,7 @@
 安装：
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-config-base-mxx
+npm install --save-dev eslint babel-eslint eslint-config-base-edu
 ```
 
 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
@@ -12,7 +12,7 @@ npm install --save-dev eslint babel-eslint eslint-config-base-mxx
 ```js
 module.exports = {
     extends: [
-        'eslint-config-base-mxx',
+        'eslint-config-base-edu',
     ],
     globals: {
         // 这里填入你的项目需要的全局变量

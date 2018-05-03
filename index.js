@@ -937,8 +937,8 @@ module.exports = {
         'no-useless-constructor': 'error',
         // @fixable 禁止解构时出现同样名字的的重命名，比如 let { foo: foo } = bar;
         'no-useless-rename': 'error',
-        // @fixable 禁止出现 var
-        'no-var': 'error',
+        // @off 没必要强制 var
+        'no-var': 'off',
         // @fixable 必须使用 a = {b} 而不是 a = {b: b}
         // @off 没必要强制要求
         'object-shorthand': 'off',
